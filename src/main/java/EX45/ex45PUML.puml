@@ -1,0 +1,10 @@
+@startuml
+class EX45.ChangeText {
+~ {static} String fileName
++ {static} void UserOutputFile()
++ {static} void Changeinfo()
+}
+class EX45.ex45 {
++ {static} void main(String[])
+}
+@enduml

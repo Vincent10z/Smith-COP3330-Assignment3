@@ -1,0 +1,21 @@
+@startuml
+class EX42.Employee {
+- String Lname
+- String Fname
+- int Salary
++ void setFname(String)
++ void setLname(String)
++ void setSalary(int)
++ String getFname()
++ String getLname()
++ int getSalary()
++ {static} void printHeader()
+}
+class EX42.ex42 {
++ {static} ArrayList<Employee> empList
++ void getInfo()
++ void setInfo()
++ void writeInfo()
++ {static} void main(String[])
+}
+@enduml

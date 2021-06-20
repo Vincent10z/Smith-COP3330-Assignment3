@@ -1,0 +1,14 @@
+@startuml
+class EX43.ex43 {
++ {static} void main(String[])
+}
+class EX43.webGen {
+~ String siteName
+~ String author
+~ String path
++ String makeWeb()
++ String genJSFolder()
++ String genCSSFolder()
++ String genHTML()
+}
+@enduml

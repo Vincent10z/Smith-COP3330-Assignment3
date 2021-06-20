@@ -1,0 +1,25 @@
+@startuml
+class EX46.WordNum {
+- String word
+- int count
++ String getWord()
++ void setWord(String)
++ int getCount(int)
++ void setCount(int)
+}
+class EX46.Reader {
+- String fileString
++ String[] extractWords()
+}
+class EX46.Wordinput {
+- Reader reader
++ WordNum getWordCounts(String)
+}
+class EX46.ShowWord {
+- Wordinput wordinput
++ void wordCount(String)
+}
+class EX46.ex46 {
++ {static} void main(String[])
+}
+@enduml

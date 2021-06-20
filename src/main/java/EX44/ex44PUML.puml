@@ -1,0 +1,22 @@
+@startuml
+class EX44.ex44 {
++ {static} void main(String[])
+}
+class EX44.JSON {
++ {static} List<JSONProducts> jsonScan(File)
+}
+class EX44.JSONProducts {
++ String pName
++ String pPrice
++ String pQuantity
+}
+class EX44.PSearch {
+- {static} Scanner Userinput
++ boolean inInventory(JSONProducts,String)
++ String printSearch(List<JSONProducts>,String)
++ String search(List<JSONProducts>)
+}
+class EX44.genFile {
+~ File getFile(String)
+}
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+class EX41.ex41 {
+~ {static} ArrayList<String> lines
+~ {static} int counter
++ {static} void main(String[])
++ void Read()
++ void Write()
++ void Output()
+}
+@enduml
